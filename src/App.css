@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background: #1f2937;
+  padding: 14px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo { font-size: 20px; margin: 0; }
+
+.nav a {
+  margin-left: 14px;
+  color: white;
+}
+
+main { padding: 20px; }
+
+.pagina {
+  max-width: 900px;
+  margin: auto;
+}
+
+.btn {
+  padding: 10px 14px;
+  background: #2563eb;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
+
+.card,
+.card-centro {
+  background: #0b1116;
+  padding: 18px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.card-centro {
+  max-width: 430px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  background: #16212b;
+  border: 1px solid #2b3a48;
+  border-radius: 8px;
+  color: white;
+  margin-top: 12px;
+}
+
+.lista-categorias {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.cat-card {
+  background: #07121a;
+  padding: 16px;
+  border-radius: 10px;
+  text-align: center;
+  color: #d7e8f7;
+  font-weight: bold;
+}
+
+.pregunta { font-size: 1.1rem; margin-bottom: 12px; }
+
+.correcto { color: #8bff8b; margin-top: 10px; }
+.incorrecto { color: #ff8b8b; margin-top: 10px; }
+
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
